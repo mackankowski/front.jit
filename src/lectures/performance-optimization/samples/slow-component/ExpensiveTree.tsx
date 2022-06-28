@@ -1,11 +1,13 @@
-function ExpensiveTree({referenceProps = {}}) {
+function ExpensiveTree() {
     let now = performance.now();
     while (performance.now() - now < 100) {
-      // Artificial delay -- do nothing for 100ms
+      // do nothing for 100ms
     }
     return <p>I am a very slow component tree.</p>;
   }
 
-  // export default memo(ExpensiveTree, arePropsEqualDebug(ExpensiveTree.name))
+
+  // TODO: component memoization
+  // TODO: memoization with parameter (arePropsEqual function)
 
   export default ExpensiveTree

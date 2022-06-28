@@ -8,7 +8,7 @@
 // read more: https://reactjs.org/docs/react-api.html#reactmemo
 // tip: use console.count() for getting a number of renders
 
-export const arePropsEqualDebug =
+export const arePropsEqual =
   (componentName: string) => (prev: any, next: any) => {
     let arePropsEqual = true;
     Object.keys(prev).forEach((key: any) => {
