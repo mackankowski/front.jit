@@ -1,2 +1,2 @@
 # front.jit
-Code samples for Front.JIT lectures
+Code samples for front.jit lectures
