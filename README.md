@@ -1,2 +1,4 @@
 # front.jit
-Code samples for front.jit lectures
+
+All my meetings' lectures that containing slides and code samples:  [Lectures](/src/lectures)
+
