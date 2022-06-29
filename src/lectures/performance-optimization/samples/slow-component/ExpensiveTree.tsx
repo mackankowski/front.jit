@@ -1,4 +1,4 @@
-function ExpensiveTree() {
+function ExpensiveTree({props}: any) {
     let now = performance.now();
     while (performance.now() - now < 100) {
       // do nothing for 100ms
@@ -7,7 +7,8 @@ function ExpensiveTree() {
   }
 
 
+  export default ExpensiveTree
+
   // TODO: component memoization
   // TODO: memoization with parameter (arePropsEqual function)
 
-  export default ExpensiveTree

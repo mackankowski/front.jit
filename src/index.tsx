@@ -2,8 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-// import App from './lectures/performance-optimization/samples/slow-component'
-// import App from './lectures/performance-optimization/samples/virtualized-table'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
