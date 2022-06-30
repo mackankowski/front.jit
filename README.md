@@ -1,4 +1,6 @@
-# front.jit
+# front.jit 🚀
 
-All my meetings' lectures that containing slides and code samples:  [Lectures](/src/lectures)
+The frontend meet-up series for [jit.team](https://jit.team).
+
+All my lectures containing slides and code samples are available [here](/src/lectures).
 
