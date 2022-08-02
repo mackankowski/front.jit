@@ -1,4 +1,4 @@
-# front.jit
+# front.jit 🚀
 
 All my meetings' lectures that containing slides and code samples are available in the [Lectures](/src/lectures) directory.
 
