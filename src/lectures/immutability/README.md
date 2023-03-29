@@ -27,19 +27,19 @@ Performance impact: immutable data seems to be slower in fact (i.e. it do unnece
 
 ## How to handle the immutable data in JS?
 
-- Object.freeze()
-- Typescript's readonly (compile-time only)
-- immer.js, immutable.js
-- React.js: useDeepCompare, shouldComponentUpdate
+- `Object.freeze()` (run-time)
+- Typescript's `readonly` (compile-time only)
+- `immer.js`, `immutable.js`
+- React.js: `useDeepCompare`, `shouldComponentUpdate`
 
 ### Shallow clone methods
 
-- JSON.strignify()
+- `JSON.strignify()`, `JSON.parse()`
 
 ### Deep clone methods
 
 The experienced developers should know what operation (on which data structures) cases manipulation and which don't, but also the "seniors" could meet some traps in the daily basis. There are couple solution to use immutabily data (using its values instead of references) and I would like to present them (with their props & cons):
 
 
-- window. structuredCopy
-- Lodash (_.clonedeep) / Ramda
+- `window.structuredClone()`
+- Lodash (`_.clonedeep`) / Ramda
