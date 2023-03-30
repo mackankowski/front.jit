@@ -2,7 +2,7 @@
 
 ## Intro
 
-The origin presentation title was "Why is immutability such a pain..." but in fact, there's nothing wrong with immutability and the only its oposite is cause of developers' struggle. In today's speach I would like to aware before unexpected, errors-causing data mutation and to show the ways how to avoid it and make your code less error prone.
+The initial title of the presentation was "Why is immutability such a pain..." but in fact, there's nothing wrong with immutability and the only its oposite is cause of developers' struggle. In today's speach I would like to aware before unexpected, errors-causing data mutation and to show the ways how to avoid it and make your code less error prone.
 
 ## Motivation
 
