@@ -34,8 +34,8 @@ Performance impact: immutable data seems to be slower in fact (i.e. it do unnece
 
 There are two ways to clone an object in Javascript:
 
-- Shallow copy: the only first level of the object is copied. Deeper levels are referenced.
-- Deep copy: all levels of the object are copied.
+- **Shallow copy**: the only first level of the object is copied. Deeper levels are referenced.
+- **Deep copy**: all levels of the object are copied.
 
 Shallow copies are a lot faster than deep copies.
 
