@@ -30,7 +30,7 @@ Performance impact: immutable data seems to be slower in fact (i.e. it do unnece
 - `immer.js`, `immutable.js`
 - React.js: `useDeepCompare`, `shouldComponentUpdate`
 
-## Clone methods
+### Clone methods
 
 There are two ways to clone an object in Javascript:
 
