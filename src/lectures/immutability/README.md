@@ -16,10 +16,8 @@ Life and work cames with problems, and what is our domain, as the engineers, we'
 
 - Object mutation (from function): https://codesandbox.io/s/js-object-mutation-from-function-k2uyen?file=/src/index.js 
 
-
 - Date object mutation:
 https://codesandbox.io/s/js-date-mutation-mhkflp?file=/src/index.js 
-
 
 ## Pros and cons of immutability
 
@@ -32,14 +30,23 @@ Performance impact: immutable data seems to be slower in fact (i.e. it do unnece
 - `immer.js`, `immutable.js`
 - React.js: `useDeepCompare`, `shouldComponentUpdate`
 
-### Shallow clone methods
+## Clone methods
 
-- `JSON.strignify()`, `JSON.parse()`
+There are two ways to clone an object in Javascript:
 
-### Deep clone methods
+- Shallow copy: means that only the first level of the object is copied. Deeper levels are referenced.
+- Deep copy: means that all levels of the object are copied. This is a true copy of the object.
+
+Shallow copies are a lot faster than deep copies
+
+#### Shallow clone methods
+
+- Object.assign() / spread operator
+
+#### Deep clone methods
 
 The experienced developers should know what operation (on which data structures) cases manipulation and which don't, but also the "seniors" could meet some traps in the daily basis. There are couple solution to use immutabily data (using its values instead of references) and I would like to present them (with their props & cons):
 
-
+- `JSON.strignify()`, `JSON.parse()`
 - `window.structuredClone()`
 - Lodash (`_.clonedeep`) / Ramda
